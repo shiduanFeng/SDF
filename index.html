@@ -2,10 +2,55 @@
 <html>
    <head>
       <title>玻璃杯主页</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8"> 
+      <link rel="stylesheet" href="css/bootstrap.min.css"> 
+      <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
    </head>
-   <body>
-      <h1>Hello, world!</h1>
-      <h1>我是标题1 h1. <small>我是副标题1 h1</small></h1> 
-   </body>
+<body>
+    <h1>Hello, world!</h1>
+    <h1>我是标题1 h1. <small>我是副标题1 h1</small></h1> 
+
+
+
+    <p>基本的胶囊式导航菜单</p>
+    <ul class="nav nav-pills">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">SVN</a></li>
+    <li><a href="#">iOS</a></li>
+    <li><a href="#">VB.Net</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">PHP</a></li>
+    </ul>
+    <button type="button" class="btn btn-default btn-lg ">默认按钮</button>
+    <button type="button" class="btn btn-default btn-lg active">激活按钮</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary btn-lg ">原始按钮</button>
+    <button type="button" class="btn btn-primary btn-lg active">激活的原始按钮</button>
+  </p>
+  
+  <div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+</body>
 </html>
